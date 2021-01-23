@@ -7,30 +7,28 @@
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Chirpy                          # the main title
+title: An Archive                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: ...for your ears!   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  An archive for personal use.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
-author: your_full_name                  # change to your full name
+author: DJBitslip                  # change to your full name
 
 github:
-  username: github_username             # change to your github username
+  username: EdGrimley             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: DJBitslip            # change to your twitter username
 
-social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
-  links:
+# social:
+  # name: your_full_name                  # it will shows as the copyright owner in Footer
+  # email: example@doamin.com             # change to your email address
+  # links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/username       # change to your github homepage
@@ -38,7 +36,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+# google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
 
 
@@ -47,22 +45,22 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: America/Kentucky/Louisville
 
-google_analytics:
-  id: ''          # Fill with your Google Analytics ID
-  pv:
+# google_analytics:
+  # id: ''          # Fill with your Google Analytics ID
+  # pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-    enabled: false
+    # enabled: false
     # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+    # proxy_url: ''
+    # proxy_endpoint: ''
+    # cache: false  # pv data local cache, good for the users from GFW area.
 
-disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+# disqus:
+  # comments: false  # boolean type, the global switch for posts comments.
+  # shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 
 # Prefer color scheme setting.
@@ -77,7 +75,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -92,7 +90,7 @@ avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-paginate: 10
+paginate: 20
 
 kramdown:
   syntax_highlighter: rouge
