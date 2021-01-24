@@ -47,8 +47,8 @@ baseurl: ''
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: America/Kentucky/Louisville
 
-# google_analytics:
-  # id: ''          # Fill with your Google Analytics ID
+google_analytics:
+  id: 'G-HMQF74Y79M'          # Fill with your Google Analytics ID
   # pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
